@@ -58,7 +58,6 @@ development:
 test:
   <<: *default
   database: rails_test_test
-  host: postgres
   username: postgres
   password: secretpassword
 

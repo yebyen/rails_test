@@ -37,6 +37,7 @@ group :development, :test do
   gem 'byebug'
   gem 'cucumber-rails'
   gem 'shoulda-matchers'
+  gem 'selenium-webdriver'
 end
 
 group :development do

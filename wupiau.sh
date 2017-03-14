@@ -12,6 +12,7 @@ EOF
     echo "something went wrong, let's wait 5 seconds and retry"
     sleep 5
 done
+sleep 5
 
 [[ $retries -eq i ]] && { echo "Failed!"; exit 1; }
 exit 0  # We made it!  Postgres server is listening
